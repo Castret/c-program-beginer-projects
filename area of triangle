@@ -1,0 +1,15 @@
+// program to find area of triangle 
+#include <stdio.h>
+
+int main() {
+    int a,b,c,x;
+    int s,area;
+    printf("enter the sides of the triangle ");
+    scanf("%d%d%d",&a,&b,&c);
+    s=a/2+b/2+c/2;
+    x=s*(s-a)*(s-b)*(s-c);
+    area=sqrt(x);
+    printf("\n the area of the triangle is : %d",area);
+    return 0;
+    
+}
