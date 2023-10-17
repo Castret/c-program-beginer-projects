@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+   char c;
+   int f ;
+   printf("enter the char ");
+   scanf("%c",&c);
+   f=c*c;
+   printf ("%d",f);
+   
+}
