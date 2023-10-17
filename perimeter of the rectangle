@@ -1,0 +1,12 @@
+
+#include <stdio.h>
+
+int main() {
+  int l,b,p;
+  printf("enter the value of lenght and breadth ");
+  scanf("%d%d",&l,&b);
+  p=2*(l+b);
+  printf("the perimeter of the rectangle is : %d",p);
+  return 0;
+  
+}
