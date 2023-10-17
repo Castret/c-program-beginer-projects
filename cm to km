@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+   int l,km;
+   printf("enter the lenght of rod in cm : ");
+   scanf("%d",&l);
+   km=l/100000;
+   printf("the lenght of the rod is %d km ",km);
+   return 0;
+   
+}
