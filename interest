@@ -1,0 +1,16 @@
+
+#include <stdio.h>
+
+int main() {
+  int pa,ny,rateofinterest,simpleinterest;
+  printf("enter the principle amount :");
+  scanf("%d",&pa);
+   printf("enter the no of years  :");
+   scanf("%d",&ny);
+   printf("enter the rate of interest   :");
+    scanf("%d",&rateofinterest);
+  simpleinterest=(pa*ny*rateofinterest)/100;
+  printf("simple interest = %d",simpleinterest);
+  
+  
+}
