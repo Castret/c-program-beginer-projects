@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main() {
+    int s , area ;
+    printf("enter the side : ");
+    scanf("%d",&s);
+    area =s*s;
+    printf("\n the area of circle is : %d",area);
+    return 0;
+}
