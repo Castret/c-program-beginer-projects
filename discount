@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+   int sp,x,fp;
+   printf("enter the value of discount ");
+   scanf("%d",&x);
+   sp=100;
+   fp= sp - x;
+   printf("the final amount he have to pay is %d",fp);
+   return 0;
+}
