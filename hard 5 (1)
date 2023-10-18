@@ -9,11 +9,11 @@ int main() {
     scanf("%d%d",&x,&y);
     if(A-x<B-y){
         printf("FIRST");
- if(A-x>B-y){
+    }
+ else if(A-x>B-y){
         printf("ANY");
     }
-    }
-    if(A-x==B-y){
+    else{
         printf("ANY");
     }
 }
