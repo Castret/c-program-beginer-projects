@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    int A,B;
+    int x,y;
+    printf("enter the price of tv A and B : ");
+    scanf("%d%d",&A,&B);
+    printf("enter the amount of discount in each tv : ");
+    scanf("%d%d",&x,&y);
+    if(A-x<B-y){
+        printf("FIRST");
+ if(A-x>B-y){
+        printf("ANY");
+    }
+    }
+    if(A-x==B-y){
+        printf("ANY");
+    }
+}
+    
+
+        
+    
