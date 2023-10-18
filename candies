@@ -1,0 +1,19 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+
+int main() {
+    int n,x,cp;
+    printf("enter the no of children and no of candies : ");
+    scanf("%d%d",&n,&x);
+    cp=(n-x);
+    if(cp%4==0){
+        cp=(n-x)/4;
+        printf("the minumum number of candy packets chef must buy so that he is able to give 1 candy to each of the children is : %d",cp);
+    }
+    else if(cp%4!=0){
+        cp=(n-x)/4;
+        printf("the minumum number of candy packets chef must buy so that he is able to give 1 candy to each of the children is : %d",cp+1);
+    }
+}
+
+    
