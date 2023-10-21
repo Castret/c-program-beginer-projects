@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+   int t,d;
+   printf("enter the ticket  number : ");
+   scanf("%d",&t);
+   printf("\nenter the date of month : ");
+   scanf("%d",&d);
+   if(t%d==0){
+       printf(" 1 ");
+   }
+   else 
+   {
+       printf("0");
+   }
+}
