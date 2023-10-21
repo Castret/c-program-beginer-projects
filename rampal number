@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+   int r,d,n,e,z,c;
+   printf("enter the rampal number : ");
+   scanf("%d",&r);
+   c=r%100;
+   d=c%10;
+   e=d%10;
+   z=d+e;
+   if(z%4==0){
+       printf(" YES ");
+   }
+   else if(z%4!=0)
+   {
+       printf("NO");
+   }
+}
