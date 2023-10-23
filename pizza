@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int n,m,x;
+    printf("enter the no of friends : ");
+    scanf("%d",&n);
+    printf("enter the no of slices each friend need : ");
+    scanf("%d",&x);
+    m=x*n;
+    if(m%4==0){
+        printf("the minimum no of pizzas requires is : %d ",m/4);
+    }
+    else if(m%4!=0){
+        printf("the min no of pizzas req is : %d",m/4+1);
+    }
+}
